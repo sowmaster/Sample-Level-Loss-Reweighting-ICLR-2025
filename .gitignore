@@ -1,0 +1,10 @@
+venv/
+.conda/
+.idea/
+*/.DS_Store
+
+.DS_Store
+*.zip
+*.bin
+*.pdf
+*.png
