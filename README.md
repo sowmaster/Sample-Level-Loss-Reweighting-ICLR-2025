@@ -11,6 +11,11 @@ Install the requirements inside `requirements.txt`
 ## Experiment configurations
 You may find all configuration files in the `config/` folder of this repository.
 
+**NOTE REGARDING 1.4B AND 7B EXPERIMENTS:** To reproduce our experiments, especially those for the 1.4 and 7B parameter models, please find the exact hyperparameters
+in our paper appendix. Please find the full code of our approach for pre-training large scale LLMs in IBM's FSDP 
+foundation model stack: https://github.com/foundation-model-stack/fms-fsdp/tree/reweighted-train
+This code is executable out of the box. The hyperparameters in our paper appendix were used to train on 64 H100 GPUs.
+
 ## Running experiments
 
 First you need to install the project dependencies available in the `requirements.txt` file.
